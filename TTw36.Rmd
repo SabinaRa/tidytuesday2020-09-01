@@ -46,7 +46,8 @@ ggplot(fertilizerContinent, aes(Year, `Nitrogen fertilizer use (kilograms per he
   labs(title= "Nitrogen fertilizer use per continent from 2002 till 2017", caption = "Data source: Our World in Data") + 
   theme_economist_white()+ theme(legend.position="bottom", legend.title = element_blank()) + 
   xlab(label = element_blank()) + 
-  theme(axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)))
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)), plot.title = element_text( margin=margin(0,0,20,0)))
+    
 
 ggsave("PlotTTw36.png", dpi = 300, height = 10, width = 18, units = "cm")
 
