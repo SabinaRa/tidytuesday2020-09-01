@@ -6,4 +6,4 @@ https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-09-01/
 Data source: Our World in Data
 
 Screenshot
-![Screenshot](PlotTTw36.png)
+![Screenshot](PlotTTw36.png) 
